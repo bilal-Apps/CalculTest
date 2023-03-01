@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author Paviot
- *
- */
-package math;
