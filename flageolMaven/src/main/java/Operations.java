@@ -256,32 +256,32 @@ public class Operations {
 					System.out.println("Vous avez due faire une erreur dans la saisie de vos valeurs"); 
 				
 				} 
-			case 10:
-				System.out.println("Cosinus");
-				System.out.println("Valeur  ?");
-				a = sc.nextLine();
-				try {
-					 resultat=c.cosine(Double.parseDouble(a));
-					System.out.println("D'aprés vous quel sera le résultat ? ");
-					Double p=u.getresultat();
-					boolean pred=u.compare(resultat, p);
-					if (pred==true) {
-						score++;
-						compteur=1;
-					}
-					if (compteur!=0) {
-						System.out.println("Bravo !, le résulat est : "+ resultat);
-					}
-					else
-					System.out.println("Echec le résulat est : "+resultat);
+			// case 10:
+			// 	System.out.println("Cosinus");
+			// 	System.out.println("Valeur  ?");
+			// 	a = sc.nextLine();
+			// 	try {
+			// 		 resultat=c.cosine(Double.parseDouble(a));
+			// 		System.out.println("D'aprés vous quel sera le résultat ? ");
+			// 		Double p=u.getresultat();
+			// 		boolean pred=u.compare(resultat, p);
+			// 		if (pred==true) {
+			// 			score++;
+			// 			compteur=1;
+			// 		}
+			// 		if (compteur!=0) {
+			// 			System.out.println("Bravo !, le résulat est : "+ resultat);
+			// 		}
+			// 		else
+			// 		System.out.println("Echec le résulat est : "+resultat);
 					
-				} catch (ArithmeticException e) {
-				    System.out.println("Impossible d'effectuer ce calcul");
-				} 		
-				catch (Exception e) {
-					System.out.println("Vous avez due faire une erreur dans la saisie de vos valeurs"); 
+			// 	} catch (ArithmeticException e) {
+			// 	    System.out.println("Impossible d'effectuer ce calcul");
+			// 	} 		
+			// 	catch (Exception e) {
+			// 		System.out.println("Vous avez due faire une erreur dans la saisie de vos valeurs"); 
 				
-				} 
+			// 	} 
 			case 11:
 				System.out.println("Tangent");
 				System.out.println("Valeur  ?");
