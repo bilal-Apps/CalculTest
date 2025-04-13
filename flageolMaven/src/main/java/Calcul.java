@@ -77,12 +77,12 @@ public class Calcul {
         return Math.cos(value1);
     }
 
-    public  double tangent(double value1) {
-        /**
-         * This method will evaluate a tangent line
-         */
-        return Math.tan(value1);
-    }
+    // public  double tangent(double value1) {
+    //     /**
+    //      * This method will evaluate a tangent line
+    //      */
+    //     return Math.tan(value1);
+    // }
     public boolean compa(double value1,double value2) {
     	return value1==value2;
     }
