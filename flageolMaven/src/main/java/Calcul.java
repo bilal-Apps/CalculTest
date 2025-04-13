@@ -54,37 +54,37 @@ public class Calcul {
         return Math.pow(value1, value2);
     }
 
-    public  double invertPositiveAndNegative(double value1) {
-        /**
-         * This method will invert the sign of the number
-         */
-        return value1 *= -1;
-    }
+    // public  double invertPositiveAndNegative(double value1) {
+    //     /**
+    //      * This method will invert the sign of the number
+    //      */
+    //     return value1 *= -1;
+    // }
 
-    public  double sine(double value1) {
-        /**
-         * This method will evaluate to an answer that is equal to the ratio
-         * of the side opposite a given angle (in a right triangle) to the hypotenuse.
-         */
-        return Math.sin(value1);
-    }
+    // public  double sine(double value1) {
+    //     /**
+    //      * This method will evaluate to an answer that is equal to the ratio
+    //      * of the side opposite a given angle (in a right triangle) to the hypotenuse.
+    //      */
+    //     return Math.sin(value1);
+    // }
 
-    public  double cosine(double value1) {
-        /**
-         * This method will evaluate to an answer that is equal to the ratio
-         * of the side adjacent to an acute angle (in a right-angled triangle) to the hypotenuse.
-         */
-        return Math.cos(value1);
-    }
+    // public  double cosine(double value1) {
+    //     /**
+    //      * This method will evaluate to an answer that is equal to the ratio
+    //      * of the side adjacent to an acute angle (in a right-angled triangle) to the hypotenuse.
+    //      */
+    //     return Math.cos(value1);
+    // }
 
-    public  double tangent(double value1) {
-        /**
-         * This method will evaluate a tangent line
-         */
-        return Math.tan(value1);
-    }
-    public boolean compa(double value1,double value2) {
-    	return value1==value2;
-    }
+    // public  double tangent(double value1) {
+    //     /**
+    //      * This method will evaluate a tangent line
+    //      */
+    //     return Math.tan(value1);
+    // }
+    // public boolean compa(double value1,double value2) {
+    // 	return value1==value2;
+    // }
 
    }
