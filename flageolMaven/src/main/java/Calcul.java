@@ -7,9 +7,9 @@ public class Calcul {
 		return res.add( a, b);
 	}
 	
-	// public IResolution getRes() {
-	// 	return res;
-	// }
+	public IResolution getRes() {
+		return res;
+	}
 
 	public void setRes(IResolution res) {
 		this.res = res;
